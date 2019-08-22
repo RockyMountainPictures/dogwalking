@@ -1,3 +1,4 @@
+@import url(https://fonts.googleapis.com/css?family=Playfair+Display:400,700&subset=latin,cyrillic);
 @import url(https://fonts.googleapis.com/css?family=Raleway:400,300,700);
 @import url(https://fonts.googleapis.com/css?family=Titillium+Web:400,300,700);
 
@@ -5,8 +6,13 @@
 
 
 
+
 #dropdown-menu-1 .hide-buttons [data-button] {
   display: none !important;
+}
+#dropdown-menu-1 .navbar-brand a {
+  font-size: 24px;
+  font-family: 'Playfair Display', sans-serif;
 }
 #dropdown-menu-1 .nav .link,
 #dropdown-menu-1 .dropdown-item {
@@ -28,6 +34,10 @@
 }
 #header2-2 P {
   font-family: 'Raleway', sans-serif;
+  font-size: 24px;
+}
+#header2-2 H1 {
+  font-size: 60px;
 }
 #msg-box4-5 .lead P {
   text-align: left;
@@ -55,8 +65,13 @@
 
 
 
+
 #dropdown-menu-n .hide-buttons [data-button] {
   display: none !important;
+}
+#dropdown-menu-n .navbar-brand a {
+  font-size: 24px;
+  font-family: 'Playfair Display', sans-serif;
 }
 #dropdown-menu-n .nav .link,
 #dropdown-menu-n .dropdown-item {
@@ -101,8 +116,13 @@
 
 
 
+
 #dropdown-menu-4 .hide-buttons [data-button] {
   display: none !important;
+}
+#dropdown-menu-4 .navbar-brand a {
+  font-size: 24px;
+  font-family: 'Playfair Display', sans-serif;
 }
 #dropdown-menu-4 .nav .link,
 #dropdown-menu-4 .dropdown-item {
@@ -163,8 +183,13 @@
 }
 
 
+
 #dropdown-menu-7 .hide-buttons [data-button] {
   display: none !important;
+}
+#dropdown-menu-7 .navbar-brand a {
+  font-size: 24px;
+  font-family: 'Playfair Display', sans-serif;
 }
 #dropdown-menu-7 .nav .link,
 #dropdown-menu-7 .dropdown-item {
@@ -183,6 +208,12 @@
 }
 #dropdown-menu-7 .navbar-toggler {
   color: #000000;
+}
+#msg-box3-q .mbr-header .mbr-header__text {
+  text-align: center;
+}
+#msg-box3-q .mbr-header .mbr-header__subtext {
+  text-align: center;
 }
 #contacts2-6 P {
   color: #000000;
