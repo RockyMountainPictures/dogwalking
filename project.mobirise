@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "My Services",
-    "currentPage": "index.html",
+    "currentPage": "services.html",
     "theme": {
       "name": "purity",
       "title": "PurityM",
@@ -14,7 +14,7 @@
     "path": "@PROJECT_PATH@",
     "versionFirst": "4.10.5",
     "siteFonts": [],
-    "uniqCompNum": 27,
+    "uniqCompNum": 28,
     "versionPublish": "4.10.5",
     "screenshot": "screenshot.png"
   },
@@ -609,8 +609,8 @@
             "secondType": "bg-warning",
             "thirdType": "bg-danger",
             "fourthType": "bg-primary",
-            "paddingTop": 3,
-            "paddingBottom": 3,
+            "paddingTop": "2",
+            "paddingBottom": "2",
             "showButtons": true,
             "bgImageRadio": false,
             "bgImage": "@THEME_PATH@/components/_images/photo-3.jpg",
@@ -639,7 +639,7 @@
           "price4": "",
           "period1": "They gotta go when they gotta go!",
           "period2": "A meander around the neighborhood",
-          "period3": "The perfect afternoon stroll",
+          "period3": "The perfect afternoon walk in the forest",
           "period4": "They will be resting the entire day",
           "list1": "<ul class=\"list-group list-group-flush\"><li class=\"list-group-item\"><b>3-7&nbsp;</b>Minutes</li><li class=\"list-group-item\"><b>1&nbsp;</b>Photo of your dog</li><li class=\"list-group-item\">*Not advised for new customers (Doesn't include meet &amp; greet)</li></ul>",
           "list2": "<ul class=\"list-group list-group-flush\"><li class=\"list-group-item\"><b style=\"font-size: 1rem;\">20-25&nbsp;</b><span style=\"font-size: 1rem;\">Minutes</span><br></li><li class=\"list-group-item\"><b>2</b> Photos</li><li class=\"list-group-item\">A walk of the surrounding neighborhood</li></ul>",
@@ -676,13 +676,13 @@
           "_params": {
             "showTitle": true,
             "showCaption": true,
-            "paddingTop": "0",
+            "paddingTop": "1",
             "paddingBottom": "0",
             "bgImageRadio": false,
             "bgImage": "@THEME_PATH@/components/_images/photo-3.jpg",
             "parallax": true,
             "bgColorRadio": true,
-            "bgColor": "#e9efff",
+            "bgColor": "#d8f1d5",
             "bgVideoRadio": false,
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
@@ -711,13 +711,13 @@
             "showTitles": true,
             "showCaptions": true,
             "paddingTop": "0",
-            "paddingBottom": 3,
+            "paddingBottom": "2",
             "columns": "3",
             "bgImageRadio": false,
             "bgImage": "@THEME_PATH@/components/_images/photo-3.jpg",
             "parallax": true,
             "bgColorRadio": true,
-            "bgColor": "#e9efff",
+            "bgColor": "#d8f1d5",
             "bgVideoRadio": false,
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
@@ -746,6 +746,34 @@
               "googleLink": "https://fonts.googleapis.com/css?family=Titillium+Web:400,300,700"
             }
           }
+        },
+        {
+          "_params": {
+            "showTitle": true,
+            "showCaption": true,
+            "paddingTop": "1",
+            "paddingBottom": "1",
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/photo-3.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#e1cfed",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#e9efff",
+            "overlayOpacity": 0.7
+          },
+          "title": "More Services Coming Soon!",
+          "caption": "<p>Dog washing and house sitting coming soon in the next few months.</p>",
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content5",
+          "_anchor": "content5-r"
         },
         {
           "_params": {
