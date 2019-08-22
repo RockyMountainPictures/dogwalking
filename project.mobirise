@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "My Services",
-    "currentPage": "index.html",
+    "currentPage": "contact.html",
     "theme": {
       "name": "purity",
       "title": "PurityM",
@@ -14,8 +14,9 @@
     "path": "@PROJECT_PATH@",
     "versionFirst": "4.10.5",
     "siteFonts": [],
-    "uniqCompNum": 26,
-    "versionPublish": "4.10.5"
+    "uniqCompNum": 27,
+    "versionPublish": "4.10.5",
+    "screenshot": "screenshot.png"
   },
   "pages": {
     "index.html": {
@@ -33,7 +34,11 @@
             ".hide-buttons [data-button]": {
               "display": "none !important"
             },
-            ".navbar-brand a": {},
+            ".navbar-brand a": {
+              "font-size": "24px",
+              "font-family": "'Playfair Display', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Playfair+Display:400,700&subset=latin,cyrillic"
+            },
             ".nav .link, .dropdown-item": {
               "font-size": "1em",
               "color": "#000000",
@@ -51,7 +56,7 @@
             }
           },
           "_params": {
-            "logo": true,
+            "logo": false,
             "showBrand": true,
             "hideButtons": false,
             "sticky": true,
@@ -65,7 +70,7 @@
             },
             "fontColor": "#000000"
           },
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#msg-box4-5\">About Me</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\"></a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page1.html\">Services</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page2.html\">Contact Me</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-black btn-black-outline\" href=\"page2.html\">Book Now!</a></li>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#msg-box4-5\">About Me</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\"></a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"services.html\">Services</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"contact.html\">Contact Me</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-black btn-black-outline\" href=\"page2.html\">Book Now!</a></li>",
           "logo": {
             "image": {
               "active": true,
@@ -77,7 +82,7 @@
               "title": ""
             }
           },
-          "brand": "<a class=\"text-black\" data-app-selector=\".navbar-brand a\" data-app-btn=\"true\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">Max's Dog Services</a>",
+          "brand": "<a class=\"text-black\" data-app-selector=\".navbar-brand a\" data-app-btn=\"true\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">Max's Canine Concierge&nbsp;</a>",
           "_tags": [
             "Theme"
           ],
@@ -103,11 +108,11 @@
             },
             "overlay": true,
             "overlayColor": "#ffffff",
-            "overlayOpacity": "0.2"
+            "overlayOpacity": "0.4"
           },
-          "title": "Max's Dog Services",
+          "title": "Max's Canine Concierge",
           "text": "Keeping canines happy and energized in the Heritage Mountain community",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-danger\" href=\"page2.html\" data-toolbar=\"-mbrBtnMove\">Book Now!</a>",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-danger\" href=\"contact.html\" data-toolbar=\"-mbrBtnMove\">Book Now!</a>",
           "alias": "purity/components",
           "_tags": [
             "Theme"
@@ -117,7 +122,11 @@
           "_styles": {
             "P": {
               "font-family": "'Raleway', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Raleway:400,300,700"
+              "googleLink": "https://fonts.googleapis.com/css?family=Raleway:400,300,700",
+              "font-size": "24px"
+            },
+            "H1": {
+              "font-size": "60px"
             }
           }
         },
@@ -167,7 +176,7 @@
             }
           },
           "title": "About Me",
-          "text": "<p>I'm a Heritage Woods Secondary student who loves dogs and photography. I have two standard poodles at home which are a handful even by themselves! I'm energetic and love exploring around Heritage Mountain. I'm normally an easy going individual and pretty flexible. </p><p>I've been reliably walking dogs around my neighborhood for 2 years and I've finally gotten around to creating a website dedicated to dog walking. Here you can easily contact me to book times anywhere at anytime! I will have a better system with a calendar in the near future.</p>",
+          "text": "<p>I'm a Heritage Woods Secondary student who loves dogs and photography. I have two standard poodles at home which are a handful even by themselves! I'm energetic and love exploring around Heritage Mountain. I'm normally an easy going individual and pretty flexible. </p><p>I've been reliably walking dogs around my neighborhood for 2 years and I finally gotten around to creating a website dedicated to dog walking. Here you can easily contact me to book times anywhere at anytime! I will have a better system with a calendar in the near future.</p>",
           "alias": "purity/components",
           "_tags": [
             "Theme"
@@ -268,13 +277,13 @@
             "overlayColor": "#3C3C3C",
             "overlayOpacity": 0.8,
             "googleMap": {
-              "address": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2602.182237371457!2d-122.83855456116785!3d49.29189087845468!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x548679257c2cd51f%3A0xa18ea410ad62eccf!2s11+Huckleberry+Ln%2C+Port+Moody%2C+BC+V3H+4W6!5e0!3m2!1sen!2sca!4v1566326572723!5m2!1sen!2sca\" width=\"400\" height=\"300\" frameborder=\"0\" style=\"border:0\" allowfullscreen></iframe>",
+              "address": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1301.111323548574!2d-122.8389096417034!3d49.29112534421297!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x548679259f8f51a5%3A0xc93a06e69655b959!2s101+Parkside+Dr%2C+Port+Moody%2C+BC!5e0!3m2!1sen!2sca!4v1566435516006!5m2!1sen!2sca\" width=\"600\" height=\"450\" frameborder=\"0\" style=\"border:0\" allowfullscreen></iframe>",
               "placeId": "iframe",
               "state": "ok"
             }
           },
           "text1": "<strong>Contacts<br></strong><br>\nEmail: <a href=\"mailto:m.nielsen@shaw.ca\">m.nielsen@shaw.ca</a><br>\nPhone: <a href=\"sms:778-636-4131\">778-636-4131</a><br>Main Website: <a href=\"http://rmpc.ca\" target=\"_blank\">rmpc.ca</a><a href=\"http://rmpc.ca\" target=\"_blank\"><br></a><br>",
-          "text2": "<b>Address<br></b><span style=\"font-size: 1rem;\"><b><br></b>11-101 Parkside Dr</span><div>Port Moody, BC\n</div><div>V3H 4W6</div>",
+          "text2": "<b>Address<br></b><span style=\"font-size: 1rem;\"><b><br></b>101 Parkside Dr</span><div>Port Moody, BC\n</div><div>V3H 4W6</div>",
           "alias": "purity/components",
           "_tags": [
             "Theme"
@@ -306,7 +315,11 @@
             ".hide-buttons [data-button]": {
               "display": "none !important"
             },
-            ".navbar-brand a": {},
+            ".navbar-brand a": {
+              "font-size": "24px",
+              "font-family": "'Playfair Display', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Playfair+Display:400,700&subset=latin,cyrillic"
+            },
             ".nav .link, .dropdown-item": {
               "font-size": "1em",
               "color": "#000000",
@@ -324,7 +337,7 @@
             }
           },
           "_params": {
-            "logo": true,
+            "logo": false,
             "showBrand": true,
             "hideButtons": false,
             "sticky": true,
@@ -338,7 +351,7 @@
             },
             "fontColor": "#000000"
           },
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#msg-box4-5\">About Me</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\"></a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page1.html\">Services</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page2.html\">Contact Me</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-black btn-black-outline\" href=\"page2.html\">Book Now!</a></li>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#msg-box4-5\">About Me</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\"></a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"services.html\">Services</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"contact.html\">Contact Me</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-black btn-black-outline\" href=\"page2.html\">Book Now!</a></li>",
           "logo": {
             "image": {
               "active": true,
@@ -351,7 +364,7 @@
               "linkInNewWindow": false
             }
           },
-          "brand": "<a class=\"text-black\" data-app-selector=\".navbar-brand a\" data-app-btn=\"true\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">Max's Dog Services</a>",
+          "brand": "<a class=\"text-black\" data-app-selector=\".navbar-brand a\" data-app-btn=\"true\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">Max's Canine Concierge&nbsp;</a>",
           "_tags": [
             "Theme"
           ],
@@ -413,13 +426,13 @@
             "overlayColor": "#3C3C3C",
             "overlayOpacity": 0.8,
             "googleMap": {
-              "address": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2602.182237371457!2d-122.83855456116785!3d49.29189087845468!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x548679257c2cd51f%3A0xa18ea410ad62eccf!2s11+Huckleberry+Ln%2C+Port+Moody%2C+BC+V3H+4W6!5e0!3m2!1sen!2sca!4v1566326572723!5m2!1sen!2sca\" width=\"400\" height=\"300\" frameborder=\"0\" style=\"border:0\" allowfullscreen></iframe>",
+              "address": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1301.111323548574!2d-122.8389096417034!3d49.29112534421297!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x548679259f8f51a5%3A0xc93a06e69655b959!2s101+Parkside+Dr%2C+Port+Moody%2C+BC!5e0!3m2!1sen!2sca!4v1566435516006!5m2!1sen!2sca\" width=\"600\" height=\"450\" frameborder=\"0\" style=\"border:0\" allowfullscreen></iframe>",
               "placeId": "iframe",
               "state": "ok"
             }
           },
           "text1": "<strong>Contacts<br></strong><br>\nEmail: <a href=\"mailto:m.nielsen@shaw.ca\">m.nielsen@shaw.ca</a><br>\nPhone: <a href=\"sms:778-636-4131\">778-636-4131</a><br>Main Website: <a href=\"http://rmpc.ca\" target=\"_blank\">rmpc.ca</a><a href=\"http://rmpc.ca\" target=\"_blank\"><br></a><br>",
-          "text2": "<b>Address<br></b><span style=\"font-size: 1rem;\"><b><br></b>11-101 Parkside Dr</span><div>Port Moody, BC\n</div><div>V3H 4W6</div>",
+          "text2": "<b>Address<br></b><span style=\"font-size: 1rem;\"><b><br></b>101 Parkside Dr</span><div>Port Moody, BC\n</div><div>V3H 4W6</div>",
           "alias": "purity/components",
           "_tags": [
             "Theme"
@@ -450,7 +463,11 @@
             ".hide-buttons [data-button]": {
               "display": "none !important"
             },
-            ".navbar-brand a": {},
+            ".navbar-brand a": {
+              "font-size": "24px",
+              "font-family": "'Playfair Display', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Playfair+Display:400,700&subset=latin,cyrillic"
+            },
             ".nav .link, .dropdown-item": {
               "font-size": "1em",
               "color": "#000000",
@@ -468,7 +485,7 @@
             }
           },
           "_params": {
-            "logo": true,
+            "logo": false,
             "showBrand": true,
             "hideButtons": false,
             "sticky": true,
@@ -482,7 +499,7 @@
             },
             "fontColor": "#000000"
           },
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#msg-box4-5\">About Me</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\"></a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page1.html\">Services</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page2.html\">Contact Me</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-black btn-black-outline\" href=\"page2.html\">Book Now!</a></li>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#msg-box4-5\">About Me</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\"></a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"services.html\">Services</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"contact.html\">Contact Me</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-black btn-black-outline\" href=\"page2.html\">Book Now!</a></li>",
           "logo": {
             "image": {
               "active": true,
@@ -495,7 +512,7 @@
               "linkInNewWindow": false
             }
           },
-          "brand": "<a class=\"text-black\" data-app-selector=\".navbar-brand a\" data-app-btn=\"true\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">Max's Dog Services</a>",
+          "brand": "<a class=\"text-black\" data-app-selector=\".navbar-brand a\" data-app-btn=\"true\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">Max's Canine Concierge&nbsp;</a>",
           "_tags": [
             "Theme"
           ],
@@ -521,10 +538,10 @@
             },
             "overlay": true,
             "overlayColor": "#ffffff",
-            "overlayOpacity": 0.5
+            "overlayOpacity": "0.6"
           },
           "title": "Services",
-          "text": "Tailor your needs for your pooch!",
+          "text": "Tailored to your pooch's needs!",
           "buttons": " <a data-app-btn=\"true\" class=\"btn btn-lg btn-white\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">For MAC</a>",
           "alias": "purity/components",
           "_tags": [
@@ -577,7 +594,7 @@
           },
           "title": "Dog Walking",
           "meta": "By John Smith posted July 30, 2015",
-          "text": "<p>Most canines need 30-60 minutes of exercise per day, but it all depends on the breed.<br><br><b>All walks include:</b><br>-<b>Meet &amp; Greet </b>with the dog before the walk (for new customers)<br>-As much <b>treats </b>as I can carry in my pocket<br>-As many doggy <b>bags </b>as your pooch needs<br>-I can supply a <b>leash </b>if necessary<br>-A <b>text or email </b>with photos and a <a href=\"http://strava.com\" target=\"_blank\" class=\"text-black\">Strava </a>sumarry of the walk<br><br>(Available 24/7 until Sept. 1, 2019)<br>(Avaliable all-day on weekends and after 4pm on weekdays after Sept. 1, 2019)</p>",
+          "text": "<p>Most canines need 30-60 minutes of exercise per day, but it all depends on the breed.<br><br><b>All walks include:</b><br>-<b>Meet &amp; Greet </b>with the dog before the walk (for new customers)<br>-A couple <b>treats</b> throughout the walk<br>-As many doggy <b>bags&nbsp;</b>your pooch needs<br>-I can supply a <b>leash </b>if necessary<br>-A <b>text or email </b>with photos and a <a href=\"http://strava.com\" target=\"_blank\" class=\"text-black\">Strava </a>summary of the walk<br><br>(Available 24/7 until Sept. 1, 2019)<br>(Avaliable all-day on weekends and after 4pm on weekdays after Sept. 1, 2019)</p>",
           "button": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-secondary-outline\" href=\"https://mobirise.com\">See All Templates</a>",
           "alias": "purity/components",
           "_tags": [
@@ -743,13 +760,13 @@
             "overlayColor": "#3C3C3C",
             "overlayOpacity": 0.8,
             "googleMap": {
-              "address": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2602.182237371457!2d-122.83855456116785!3d49.29189087845468!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x548679257c2cd51f%3A0xa18ea410ad62eccf!2s11+Huckleberry+Ln%2C+Port+Moody%2C+BC+V3H+4W6!5e0!3m2!1sen!2sca!4v1566326572723!5m2!1sen!2sca\" width=\"400\" height=\"300\" frameborder=\"0\" style=\"border:0\" allowfullscreen></iframe>",
+              "address": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1301.111323548574!2d-122.8389096417034!3d49.29112534421297!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x548679259f8f51a5%3A0xc93a06e69655b959!2s101+Parkside+Dr%2C+Port+Moody%2C+BC!5e0!3m2!1sen!2sca!4v1566435516006!5m2!1sen!2sca\" width=\"600\" height=\"450\" frameborder=\"0\" style=\"border:0\" allowfullscreen></iframe>",
               "placeId": "iframe",
               "state": "ok"
             }
           },
           "text1": "<strong>Contacts<br></strong><br>\nEmail: <a href=\"mailto:m.nielsen@shaw.ca\">m.nielsen@shaw.ca</a><br>\nPhone: <a href=\"sms:778-636-4131\">778-636-4131</a><br>Main Website: <a href=\"http://rmpc.ca\" target=\"_blank\">rmpc.ca</a><a href=\"http://rmpc.ca\" target=\"_blank\"><br></a><br>",
-          "text2": "<b>Address<br></b><span style=\"font-size: 1rem;\"><b><br></b>11-101 Parkside Dr</span><div>Port Moody, BC\n</div><div>V3H 4W6</div>",
+          "text2": "<b>Address<br></b><span style=\"font-size: 1rem;\"><b><br></b>101 Parkside Dr</span><div>Port Moody, BC\n</div><div>V3H 4W6</div>",
           "alias": "purity/components",
           "_tags": [
             "Theme"
@@ -780,7 +797,11 @@
             ".hide-buttons [data-button]": {
               "display": "none !important"
             },
-            ".navbar-brand a": {},
+            ".navbar-brand a": {
+              "font-size": "24px",
+              "font-family": "'Playfair Display', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Playfair+Display:400,700&subset=latin,cyrillic"
+            },
             ".nav .link, .dropdown-item": {
               "font-size": "1em",
               "color": "#000000",
@@ -798,7 +819,7 @@
             }
           },
           "_params": {
-            "logo": true,
+            "logo": false,
             "showBrand": true,
             "hideButtons": false,
             "sticky": true,
@@ -812,7 +833,7 @@
             },
             "fontColor": "#000000"
           },
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#msg-box4-5\">About Me</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\"></a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page1.html\">Services</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page2.html\">Contact Me</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-black btn-black-outline\" href=\"page2.html\">Book Now!</a></li>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#msg-box4-5\">About Me</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\"></a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"services.html\">Services</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"contact.html\">Contact Me</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-black btn-black-outline\" href=\"page2.html\">Book Now!</a></li>",
           "logo": {
             "image": {
               "active": true,
@@ -825,7 +846,7 @@
               "linkInNewWindow": false
             }
           },
-          "brand": "<a class=\"text-black\" data-app-selector=\".navbar-brand a\" data-app-btn=\"true\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">Max's Dog Services</a>",
+          "brand": "<a class=\"text-black\" data-app-selector=\".navbar-brand a\" data-app-btn=\"true\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">Max's Canine Concierge&nbsp;</a>",
           "_tags": [
             "Theme"
           ],
@@ -883,6 +904,46 @@
           "_anchor": "form1-k"
         },
         {
+          "_styles": {
+            ".mbr-header .mbr-header__text": {
+              "text-align": "center"
+            },
+            ".mbr-header .mbr-header__subtext": {
+              "text-align": "center"
+            }
+          },
+          "_params": {
+            "showTitle": true,
+            "showMeta": false,
+            "showText": true,
+            "showButton": false,
+            "paddingTop": "1",
+            "paddingBottom": "1",
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/photo-3.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#e9efff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
+          },
+          "title": "Calendar and Automated Booking System Coming Soon!",
+          "meta": "By John Smith posted July 30, 2015",
+          "text": "Sorry for the incovenience of having to fill out a long form and the delay of replying. An automated system will be coming soon around January 2020.",
+          "button": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-secondary-outline\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">See All Templates</a>",
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "msg-box3",
+          "_anchor": "msg-box3-q"
+        },
+        {
           "_params": {
             "paddingTop": "2",
             "paddingBottom": "2",
@@ -895,13 +956,13 @@
             "overlayColor": "#3C3C3C",
             "overlayOpacity": 0.8,
             "googleMap": {
-              "address": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2602.182237371457!2d-122.83855456116785!3d49.29189087845468!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x548679257c2cd51f%3A0xa18ea410ad62eccf!2s11+Huckleberry+Ln%2C+Port+Moody%2C+BC+V3H+4W6!5e0!3m2!1sen!2sca!4v1566326572723!5m2!1sen!2sca\" width=\"400\" height=\"300\" frameborder=\"0\" style=\"border:0\" allowfullscreen></iframe>",
+              "address": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1301.111323548574!2d-122.8389096417034!3d49.29112534421297!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x548679259f8f51a5%3A0xc93a06e69655b959!2s101+Parkside+Dr%2C+Port+Moody%2C+BC!5e0!3m2!1sen!2sca!4v1566435516006!5m2!1sen!2sca\" width=\"600\" height=\"450\" frameborder=\"0\" style=\"border:0\" allowfullscreen></iframe>",
               "placeId": "iframe",
               "state": "ok"
             }
           },
           "text1": "<strong>Contacts<br></strong><br>\nEmail: <a href=\"mailto:m.nielsen@shaw.ca\">m.nielsen@shaw.ca</a><br>\nPhone: <a href=\"sms:778-636-4131\">778-636-4131</a><br>Main Website: <a href=\"http://rmpc.ca\" target=\"_blank\">rmpc.ca</a><a href=\"http://rmpc.ca\" target=\"_blank\"><br></a><br>",
-          "text2": "<b>Address<br></b><span style=\"font-size: 1rem;\"><b><br></b>11-101 Parkside Dr</span><div>Port Moody, BC\n</div><div>V3H 4W6</div>",
+          "text2": "<b>Address<br></b><span style=\"font-size: 1rem;\"><b><br></b>101 Parkside Dr</span><div>Port Moody, BC\n</div><div>V3H 4W6</div>",
           "alias": "purity/components",
           "_tags": [
             "Theme"
